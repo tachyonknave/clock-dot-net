@@ -1,4 +1,9 @@
+obj/
+bin/
 ClockAPI/data/
 ClockAPI/obj/
 ClockAPI/x64/
 ClockAPI/bin/
+ClockAPI.Tests/obj/
+ClockAPI.Tests/x64/
+ClockAPI.Tests/bin/

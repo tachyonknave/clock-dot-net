@@ -1,0 +1,16 @@
+GET http://localhost:5149/health
+
+###
+
+POST http://localhost:5149/clock
+Content-Type: application/json
+
+{
+  "function": "NewFunction",
+  "param": 0,
+  "color_RGB": "FFFFFF",
+  "duration_ms": 1000
+}
+
+###
+GET http://localhost:5149/
